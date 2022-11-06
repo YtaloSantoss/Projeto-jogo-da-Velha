@@ -1,0 +1,52 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.stage{
+    text-align: center;
+}
+
+.square{
+   
+    width: 100px;
+    height: 100px;
+    background-color:rgb(31, 236, 226);
+    border: 1px solid rgb(230, 255, 2);
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    position: absolute;
+    content: "\2716";
+    font-size: 60px;
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
