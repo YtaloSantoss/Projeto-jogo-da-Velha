@@ -14,8 +14,13 @@ function handleClick(event) {
     let square = event.target;
     let postion = square.id; 
 
-    handleMove(postion);
+   if(handleMove(postion)){
+    setTimeout(() => {
+       alert("O jogo Acabou - O Vencedor foi " + " jogador " + playerTime); 
+    }, 10);
+   };
     updateSquares();
+
 }
 
 function updateSquares() {
