@@ -1,5 +1,5 @@
 body{
-    background: rgb(0, 0, 0);
+    background:#000000;
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
    
     width: 100px;
     height: 100px;
-    background-color:rgb(31, 236, 226);
-    border: 1px solid rgb(230, 255, 2);
+    background-color:rgb(51, 224, 255);
+    border: 1px solid rgb(0, 255, 64);
     display: inline-block;
 }
 
