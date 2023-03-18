@@ -1,2 +1,4 @@
 # Projeto-jogo-da-Velha
- Programador br 
+
+<a href="https://github.com/YtaloSantoss">
+ <img height="180em" src="https://github-readme-stats.vercel.app/api/pin/?username=Projeto-jogo-da-Velha&repo=github-readme-stats&cache_seconds=86400&theme=react" /></a>
